@@ -4,10 +4,8 @@ import './Main.css';
 
 const App = () => {
     return (
-        <div className="parent_div">
-            <div className="child_div">
-
-            </div>
+        <div className="main_div">
+            <h1>ReactJs Awesome!!</h1>
         </div>
     );
 };
