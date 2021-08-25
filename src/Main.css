@@ -39,7 +39,16 @@
 }
 h1{
     color: #fff;
+    text-align: center;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+h1::before{
+    content: "Full stack developer";
+    display: block;
+}
+h1::after{
+    content: "Facebook created";
+    display: block;
 }
 
 
