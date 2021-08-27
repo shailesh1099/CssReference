@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Grenze', serif;
     font-family: 'Grenze Gotisch', cursive;
+    font-family: 'Hina Mincho', serif;
 }
 :root{
     --b-a-width: 10vw;
@@ -49,7 +51,7 @@ h1{
 h1::before{
     content: "";
     position: absolute;
-    top: -10%;
+    top: 10%;
     left:50%;
     transform: translate(-50%);
     width: var(--b-a-width);
@@ -59,7 +61,7 @@ h1::before{
 h1::after{
     content: "";
     position: absolute;
-    top: 100%;
+    bottom: -10%;
     left:50%;
     transform: translate(-50%);
     width: var(--b-a-width);
