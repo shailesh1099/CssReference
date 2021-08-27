@@ -39,8 +39,6 @@
     display: flex;
     justify-content: center;
     align-items: center;    
-
-
 }
 h1{
     color: #fff;
@@ -48,7 +46,7 @@ h1{
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     position: relative;
 }
-h1::before{
+/* h1::before{
     content: "";
     position: absolute;
     top: 10%;
@@ -57,15 +55,31 @@ h1::before{
     width: var(--b-a-width);
     border-bottom: 5px solid red;
 
+} */
+/* h1::after{
+    content: "\f005";
+    font-family: "Font Awesome 6 Free";
+    width: 20vw;
+    height:25px;
+    color: #1abc9c;
+    font-size:3rem;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 5px solid #3498db;
+} */
+
+p.first_child::first-letter{
+    color:yellow;
+    font-size: 8rem;
+    float: left;
+    display: block;
+    margin: 0 15px 0 0;
+   line-height: 0.6;
+    font-weight: bold; 
 }
-h1::after{
-    content: "";
-    position: absolute;
-    bottom: -10%;
-    left:50%;
-    transform: translate(-50%);
-    width: var(--b-a-width);
-    border-bottom: 5px solid red;
+p.first_child::first-line{
+    color: yellow;
+    font-weight: bold;
 }
 
 
