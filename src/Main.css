@@ -82,5 +82,32 @@ p.first_child::first-line{
     font-weight: bold;
 }
 
+a{
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+a:link{
+ color: yellow;
+ background:blue;
+}
+
+a:visited{
+    color:purple;
+    background:black
+
+}
+
+a:hover{
+    color:red;
+    background:white;
+
+}
+a:active{
+    color:green;
+    background:white;
+
+}
+
 
     
